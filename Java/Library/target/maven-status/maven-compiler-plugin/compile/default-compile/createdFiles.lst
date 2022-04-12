@@ -1,4 +1,0 @@
-com\model\Book.class
-com\servlets\BookServlet.class
-com\service\InMemoryBookService.class
-com\service\BookService.class
