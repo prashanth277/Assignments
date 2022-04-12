@@ -1,0 +1,130 @@
+
+body{
+    position:relative;
+    font-family: "Helvatica Neue",Helvetica,Arial,sans-serif;
+}
+
+header.header {
+    display: flex;
+    height: 50px;
+    background-color: rgb(71, 66, 66);
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+
+}
+nav img{
+    width:15px;
+    height: 13px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cls-xs-6{
+    flex: 1;
+    text-align: left;
+
+}
+.cls-xs-6 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px ;
+    margin:1;
+    position: relative;
+}
+.cls-xs-6 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 2px 2px;
+    font-family: "Helvatica Neue",Helvetica,Arial,sans-serif;
+}
+.cls-xs-6 ul li a:hover{
+    background-color: rgb(48, 47, 47);
+    box-sizing: border-box;
+}
+
+.cls-xs-4{
+    width: 50%;
+    align-items:right;
+    padding: 1px 1px;
+}
+main{
+    background-color: rgb(122, 163, 81);
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    color: rgb(190, 228, 149);
+    padding-right: 50px;
+}
+.cls img{
+    width: 30px;
+    height:2px;
+}
+section{
+    background-color: aliceblue;
+    padding: 50px;
+}
+span{
+    font-weight:100;
+    color: rgb(104, 109, 114);
+
+}
+section div ul.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav li{
+
+    list-style-type: none;
+}
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto ;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.nav img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+body section div.clx{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    color: darkgray;
+    padding-left: 50px;
+
+}
+footer>a{
+    text-decoration: none;
+
+}
+
+section div.clx{
+    list-style: none;
+    display: flex;
+    background-color: orange;
+    justify-content: space-around;
+    height: 200px;
+    padding-left:50px ;
+    
+}
+
+section div.clx >ul.nav{
+    flex-direction: row;
+}

@@ -1,0 +1,36 @@
+ body{
+     background-color:linen;
+     padding: 8%;
+ }
+ p{
+    text-align: center;
+ }
+ .div-cls{
+    background-color: aqua;
+    height:auto;
+    width: 90%;
+    align-content: center;
+    text-align: center;
+    padding: 20px ;
+
+ }
+.inp-cls{
+    width: 300px;
+ }
+.li-cls{
+    background-color: rgba(105, 100, 100, 0.699);
+    text-align: left;
+    padding: 4px;
+    border: 2px;
+    border-color: aqua;
+
+}
+li:hover{
+    background-color: rgb(119, 113, 113);
+    pointer-events: fill;
+}
+li.checked{
+    text-decoration: line-through !important;
+}
+
+ 
