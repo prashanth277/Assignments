@@ -1,0 +1,191 @@
+
+
+
+body{
+  font-family: Monospace;
+  color :#2f4668;
+  background-color: #fff;
+}
+
+.markAtt:hover{
+  background-color: #508eb7;
+}
+
+.manageAtt:hover{
+  background-color: #508eb7;
+}
+.graph{
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 15px;
+}
+.sidebar-container {
+        position: fixed;
+        width: 220px;
+        height: 100%;
+        left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background: #353a94;
+        color: #fff;
+}
+  
+.content-container {
+    padding-top: 20px;
+}
+  
+.sidebar-logo {
+padding: 5px 15px 10px 30px;
+font-size: 20px;
+background-color: #315d97;
+}
+  
+.sidebar-navigation {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+  
+      .sidebar-navigation li {
+        background-color: transparent;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        line-height: 20px;
+      }
+  
+      .sidebar-navigation li a {
+        padding: 10px 15px 10px 30px;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+      }
+  
+      .sidebar-navigation li .fa {
+        margin-right: 10px;
+      }
+  
+      .sidebar-navigation li a:active,
+      .sidebar-navigation li a:hover,
+      .sidebar-navigation li a:focus {
+        text-decoration: none;
+        outline: none;
+      }
+  
+      .sidebar-navigation li::before {
+        background-color: #2574A9;
+        position: absolute;
+        content: '';
+        height: 100%;
+        left: 0;
+        top: 0;
+        -webkit-transition: width 0.2s ease-in;
+        transition: width 0.2s ease-in;
+        width: 3px;
+        z-index: -1;
+      }
+  
+      .sidebar-navigation li:hover::before {
+        width: 100%;
+      }
+  
+      .content-container {
+        padding-left: 220px;
+      }
+
+      
+  <!--    dashboard-->
+  
+  
+  #hideDivValues {
+    display: none;
+ }
+
+ /* table deco */
+
+
+ .newButton{
+  background-color:#ff7d42;
+  border :none;
+ }
+  
+ .newButton:hover{
+   background-color:#d1825e ;
+ }
+
+table{
+	border-collapse:collapse;  
+}
+
+table tr td, th{
+	border:1px solid #ffffff;
+  	padding:5px;
+}
+  
+
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(31, 167, 83);
+  color: rgb(27, 25, 25);
+  text-align: center;
+  border-radius: 35px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#snackbar1 {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: rgb(234, 123, 123);
+  color: rgb(27, 25, 25);
+  text-align: center;
+  border-radius: 35px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar1.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+  
